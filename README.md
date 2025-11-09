@@ -6,7 +6,7 @@ Full-stack assignment implementation using **Spring Boot 3** (backend) and **Rea
 
 Backend (Spring Boot / H2):
 - Secured with HTTP Basic; all endpoints require authentication (except H2 console).
-- In-memory H2 database with auto-seeded users: `admin/admin123`, `user/user123`.
+- In-memory H2 database with auto-seeded users: `admin/password`, `user/user123`.
 - CRUD REST API for prescriptions: create, read (list + single), update, delete.
 - Date-range filter (defaults to current month when no `start`/`end` query params).
 - Day-wise prescription count report.
@@ -21,7 +21,7 @@ Frontend (React + Vite):
 - Create/Edit form with client-side validation + server validation.
 - Delete confirmation prompt.
 - Day-wise report table.
-- Drug interaction viewer consuming external API: RxNav.
+- Drug interaction viewer consuming external API: Nav.
 - Responsive Bootstrap layout, navigation bar with logout.
 
 
