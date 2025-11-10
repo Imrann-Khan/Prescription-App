@@ -21,6 +21,7 @@ export default function Login() {
             navigate('/prescriptions');
             window.location.reload();
         } catch (err) {
+            console.error(err);
             setError('Invalid credentials');
         }
     };

@@ -57,7 +57,7 @@ App served at `http://localhost:5173`.
 
 ## Authentication
 Use one of the seeded users:
-- `admin / admin123`
+- `admin / password`
 - `user / user123`
 
 Token is stored as base64 of `username:password` in `localStorage` (`auth_token`).
